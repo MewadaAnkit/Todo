@@ -1,0 +1,11 @@
+body{
+       background:cyan;
+}
+
+.navbar{
+    background-color: rgb(248, 239, 247);
+   
+}
+.navbar-brand{
+    color:white;
+}
