@@ -1,6 +1,6 @@
 const { urlencoded } = require('express');
 const express = require('express');
-const Port = process.env.Port || 3000;
+const PORT = process.env.Port || 3000;
 const mongoose = require('mongoose');
 const app = express();
 
@@ -31,6 +31,6 @@ app.use(require("./routes/indexr"));
 app.use(require("./routes/todo"));
 
 //Server Listening
-app.listen(Port,()=>{
+app.listen(PORT,()=>{
 console.log(`Server started Successfully at ${Port}`);
 });
